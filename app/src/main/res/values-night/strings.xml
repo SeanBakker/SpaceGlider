@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sudoku Star</string>
+    <string name="_1">1!</string>
+    <string name="_2">2!</string>
+    <string name="_3">3!</string>
+    <string name="_4">4!</string>
+    <string name="_5">5!</string>
+    <string name="_6">6!</string>
+    <string name="_7">7!</string>
+    <string name="_8">8!</string>
+    <string name="_9">9!</string>
+    <string name="welcome">Welcome to SpaceGlider!</string>
+    <string name="Loading_New_Game">Loading New Game</string>
+    <string name="play">Play</string>
+    <string name="playClassic">Play - Classic</string>
+    <string name="win_result">Congratulations! You have successfully completed all waves!</string>
+    <string name="winWave_result">Congratulations! You have successfully completed wave </string>
+    <string name="lose_result">Sorry! You ran out of lives. Restart to play again!</string>
+    <string name="resumeGame">Resume Game</string>
+    <string name="restartGame">Restart Game</string>
+</resources>

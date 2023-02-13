@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/home_screen"
+    tools:context=".view.GameResultActivity" >
+
+    <GridLayout
+        android:id="@+id/gameResultLayout"
+        android:layout_width="274dp"
+        android:layout_height="330dp"
+        android:layout_centerInParent="true"
+        android:columnCount="1"
+        android:rowCount="5"
+        tools:ignore="UselessParent">
+
+        <Button
+            android:id="@+id/ResumeButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:text="@string/resumeGame" />
+
+        <Button
+            android:id="@+id/RestartButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:text="@string/restartGame" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/win_result"
+        android:layout_width="324dp"
+        android:layout_height="156dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:button="@android:color/transparent"
+        android:singleLine="false"
+        android:text="@string/win_result"
+        android:textColor="@color/transparent"
+        android:textSize="15sp"
+        tools:ignore="SmallSp" />
+
+    <Button
+        android:id="@+id/lose_result"
+        android:layout_width="324dp"
+        android:layout_height="156dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/transparent"
+        android:button="@android:color/transparent"
+        android:text="@string/lose_result"
+        android:textColor="@color/transparent"
+        android:textSize="15sp"
+        android:singleLine="false"
+        tools:ignore="SmallSp" />
+
+</RelativeLayout>

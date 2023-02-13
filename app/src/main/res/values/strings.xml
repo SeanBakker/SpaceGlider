@@ -1,14 +1,21 @@
 <resources>
-    <string name="app_name">SpaceGlider</string>
-    <string name="action_settings">Settings</string>
-
-
-    <string name="interstitial_ad_sample">Interstitial Ad Sample</string>
-    <string name="start_level">Level 1</string>
-    <string name="next_level">Next Level</string>
-    <!-- -
-        This is an ad unit ID for an interstitial test ad. Replace with your own interstitial ad unit id.
-        For more information, see https://support.google.com/admob/answer/3052638
-    <!- -->
-    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="app_name">Space Glider</string>
+    <string name="_1">1!</string>
+    <string name="_2">2!</string>
+    <string name="_3">3!</string>
+    <string name="_4">4!</string>
+    <string name="_5">5!</string>
+    <string name="_6">6!</string>
+    <string name="_7">7!</string>
+    <string name="_8">8!</string>
+    <string name="_9">9!</string>
+    <string name="welcome">Welcome to SpaceGlider!</string>
+    <string name="Loading_New_Game">Loading New Game</string>
+    <string name="play">Play</string>
+    <string name="playClassic">Play - Classic</string>
+    <string name="win_result">Congratulations! You have successfully completed all waves!</string>
+    <string name="winWave_result">Congratulations! You have successfully completed wave </string>
+    <string name="lose_result">Sorry! You ran out of lives. Restart to play again!</string>
+    <string name="resumeGame">Resume Game</string>
+    <string name="restartGame">Restart Game</string>
 </resources>
