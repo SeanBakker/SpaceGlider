@@ -18,4 +18,5 @@
     <string name="lose_result">Sorry! You ran out of lives. Restart to play again!</string>
     <string name="resumeGame">Resume Game</string>
     <string name="restartGame">Restart Game</string>
+    <string name="player">This is the player spaceship that is controlled by the buttons on the main activity view</string>
 </resources>

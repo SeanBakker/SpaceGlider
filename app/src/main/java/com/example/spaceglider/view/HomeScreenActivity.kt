@@ -40,6 +40,7 @@ class HomeScreenActivity : AppCompatActivity() {
                 intent.flags = Intent.FLAG_ACTIVITY_REORDER_TO_FRONT
                 intent.flags = Intent.FLAG_ACTIVITY_CLEAR_TASK
                 intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
+                customWelcomeBar?.hide()
                 startActivity(intent)
             }
         }
