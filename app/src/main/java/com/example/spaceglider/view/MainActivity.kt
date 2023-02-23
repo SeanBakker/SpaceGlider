@@ -1,16 +1,10 @@
 package com.example.spaceglider.view
 
 import android.annotation.SuppressLint
-import android.content.Context
-import android.content.res.Resources
-import android.graphics.drawable.Drawable
 import android.os.Bundle
 import android.os.Handler
-import android.util.Log
 import android.view.*
-import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.content.res.ResourcesCompat
 import com.example.spaceglider.R
 import com.example.spaceglider.game.SpaceGliderApplication
 import com.example.spaceglider.view.custom.SpaceGliderView
@@ -19,9 +13,6 @@ import kotlinx.android.synthetic.main.activity_main.*
 import android.view.View.OnTouchListener
 import androidx.appcompat.app.ActionBar
 import android.util.DisplayMetrics
-
-
-
 
 
 /*
